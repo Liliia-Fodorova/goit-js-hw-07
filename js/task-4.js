@@ -1,8 +1,8 @@
 document.querySelector(".login-form").addEventListener('submit', function (event) {
     event.preventDefault();
 
-    const email = this.elemants.email.value.trim();
-    const password = this.elemants.password.value.trim();
+    const email = this.elemants.email.trim();
+    const password = this.elemants.password.trim();
 
     if (email === '' || password === '') {
         alert('All form fields must be filled in');
